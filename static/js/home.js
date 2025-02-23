@@ -74,7 +74,6 @@ document.querySelectorAll(".add-to-cart").forEach((button) => {
         icon: "warning",
         showCancelButton: true,
         confirmButtonText: "Login Now",
-        cancelButtonText: "Cancel",
       }).then((result) => {
         if (result.isConfirmed) {
           window.location.href = "https://ecommerce-forntend-site.netlify.app/login.html"; 
