@@ -40,7 +40,7 @@ if (productId) {
         cancelButtonText: "Cancel",
       }).then((result) => {
         if (result.isConfirmed) {
-          window.location.href = "https://joyful-begonia-6e2001.netlify.app/login.html"; 
+          window.location.href = "https://ecommerce-forntend-site.netlify.app/login.html"; 
         }
       });
       return;
