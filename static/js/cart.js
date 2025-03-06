@@ -76,6 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+
     
     document.querySelectorAll(".increase-qty").forEach((button) => {
       button.addEventListener("click", (e) => {
